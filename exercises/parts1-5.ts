@@ -72,39 +72,6 @@ spaceShuttle.printDaysToLocation(new SpaceLocation('Mars', kilometersToMars));
 spaceShuttle.printDaysToLocation(new SpaceLocation('the Moon', kilometersToTheMoon));
 
 // // Part 5: Export and Import the SpaceLocation Class
-// // Add the required import statement BEFORE the part 1 concent.
-
-// export class SpaceLocation {
-//    kilometersAway: number;
-//    name: string;
-
-//    constructor(name: string, kilometersAway: number) {
-//       this.name = name;
-//       this.kilometersAway = kilometersAway;
-//    }
-// }
-
-// class Spacecraft {
-//    milesPerKilometer: number = 0.621;
-//    name: string;
-//    speedMph: number;
-
-//    constructor(name: string, speedMph: number) {
-//       this.name = name;
-//       this.speedMph = speedMph;
-//    }
-
-//    getDaysToLocation(kilometersAway: number): number {
-//       let milesAway: number = kilometersAway * this.milesPerKilometer;
-//       let hours: number = milesAway / this.speedMph;
-//       return hours / 24;
-//    }
-
-//    printDaysToLocation(location: SpaceLocation) {
-//       console.log(`${this.name} would take ${this.getDaysToLocation(location.kilometersAway)} days to get to ${location.name}.`);
-//    }
-// }
-
-// // Add the printDaysToLocation function to the Spacecraft class.
-
-// // Paste in the code from step 6 here:
+// // Add the required import statement BEFORE the part 1 concent. Done.
+// // Add the printDaysToLocation function to the Spacecraft class. Needs to be inside class?
+// // Paste in the code from step 6 here: goes in SpaceLocations file?
